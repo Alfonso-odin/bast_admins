@@ -1,19 +1,32 @@
-# bast_admins
+# 🛠️ bast_admins
 
-Este programa se conforma por 2 archivos.
+Este programa consta de **2 archivos** y está diseñado para modificar datos del perfil local en sistemas Windows 11.
 
-paso 1. En caso de estar en formato .zip .rar .iso se debe extraer a una carpeta local C:\
+## 📦 Instrucciones de uso
 
-paso 2. Colocada la carpeta en el unidad C: local se debe ejecutar el bat llamado "ejecutar-cambios"
+### 1. Extraer los archivos
+Si el programa está en formato `.zip`, `.rar` o `.iso`, descomprímelo en la carpeta `C:\`.
 
-paso 3. se abrira una ventana en powershell como admin. en ella saldran los pasos para poder cambiar los datos del perfil local el cual se quiere modificar.
+### 2. Ejecutar el script
+Ubica la carpeta extraída en `C:\` y ejecuta el archivo `ejecutar-cambios.bat`.
 
-paso 4. se ejecutara el programa "Autologon" dependiendo la ruta de la imagen planchada "admin" "SCN" y se tendra que colocar usuario (que se configuro) y contraseña (que se aplico en el cambio)
+### 3. Configuración en PowerShell
+Se abrirá una ventana de **PowerShell como administrador**. Sigue los pasos que aparecerán para modificar los datos del perfil local deseado.
 
-paso 5. El programa guardara los cambios y se pedira un reinicio, en caso de no realizarlo dichos cambios se aplicaran hasta que el equipo sea reiniciado manualmente.
+### 4. Autologon
+El programa ejecutará **Autologon** según la ruta de la imagen planchada (`admin`, `SCN`, etc.). Deberás ingresar:
+- **Usuario** (previamente configurado)
+- **Contraseña** (aplicada en el cambio)
 
+### 5. Finalización
+Una vez guardados los cambios, se solicitará reiniciar el equipo.  
+🔄 Si no se reinicia inmediatamente, los cambios se aplicarán tras un reinicio manual.
 
+---
 
-Licencia: De uso gratuito 
-Formato: Windows 11 
+## 📋 Información adicional
+
+- **Licencia:** Uso gratuito
+- **Compatibilidad:** Windows 11
+
 
