@@ -10,6 +10,8 @@ paso 3. se abrira una ventana en powershell como admin. en ella saldran los paso
 
 paso 4. se ejecutara el programa "Autologon" dependiendo la ruta de la imagen planchada "admin" "SCN" y se tendra que colocar usuario (que se configuro) y contraseña (que se aplico en el cambio)
 
+paso 5. El programa guardara los cambios y se pedira un reinicio, en caso de no realizarlo dichos cambios se aplicaran hasta que el equipo sea reiniciado manualmente.
+
 
 
 Licencia: De uso gratuito 
